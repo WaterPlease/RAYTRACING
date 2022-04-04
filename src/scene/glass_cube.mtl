@@ -1,0 +1,10 @@
+newmtl glass
+	Ns 51.2
+	d 1 
+	Tr 1.0
+	Kr 0.0
+	Tf 1 1 1
+	illum 2
+	Ka 0.0 0.0 0.0
+	Kd 1.0 1.0 1.0
+	Ks 0.0 0.0 0.0

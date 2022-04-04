@@ -1,0 +1,13 @@
+# Blender MTL File: 'round table Ultimate(free Final).blend'
+# Material Count: 1
+
+newmtl Round_table_texture_
+Tr 0.0
+Kr 0.0
+Ns 96.078431
+Ka 0.100000 0.100000 0.100000
+Kd 0.50526 0.50526 0.50526
+Ks 0.0 0.0 0.0
+Ni 1.000000
+d 1.000000
+illum 2

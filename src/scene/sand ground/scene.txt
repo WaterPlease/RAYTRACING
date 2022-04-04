@@ -1,0 +1,30 @@
+# Scene sample
+
+thread 12
+
+depth 4
+sample 8
+soft_shadow 0.2
+sample_shadow 4
+sample_spec 4
+
+sky 0.47 0.93 1.0
+
+bKDtree 1
+KDdepth 5
+KDtriangle 30
+
+# Light setting
+light
+La 0.2 0.2 0.2
+Ld 0.8 0.8 0.8
+Ls 0.0 0.0 0.0
+Lpos -10.0 -30.0 5.0 1.0
+Latt 1.0 0.0 0.0
+
+pos 0.0 -10.0 -15.0
+rot 1.57 1 0 0
+scale 20.0
+obj RockGR.obj
+
+#done

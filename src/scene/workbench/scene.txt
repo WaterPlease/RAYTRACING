@@ -1,0 +1,63 @@
+# Scene sample
+
+thread 12
+
+depth 4
+sample 8
+soft_shadow 0.16
+sample_shadow 4
+sample_spec 4
+
+sky 0.1 0.1 0.1
+
+bKDtree 0
+KDdepth 13
+KDtriangle 30
+
+# Light setting
+light
+La 0.1 0.1 0.1
+Ld 0.5 0.5 0.5
+Ls 1.0 1.0 1.0
+Lpos 0.0 10.0 20.0 0.0
+Latt 1.0 0.001 0.0
+light
+La 0.1 0.1 0.1
+Ld 0.5 0.5 0.5
+Ls 1.0 1.0 1.0
+Lpos 0.0 10.0 -20.0 0.0
+Latt 1.0 0.001 0.0
+light
+La 0.1 0.1 0.1
+Ld 0.5 0.5 0.5
+Ls 1.0 1.0 1.0
+Lpos -20.0 10.0 0.0 0.0
+Latt 1.0 0.001 0.0
+light
+La 0.1 0.1 0.1
+Ld 0.5 0.5 0.5
+Ls 1.0 1.0 1.0
+Lpos 20.0 10.0 0.0 0.0
+Latt 1.0 0.001 0.0
+
+pos 0.0 -100.0 0.0
+rot -1.57 1 0 0
+scale 1.0
+obj workbench.obj
+
+pos -20.0 -10.0 20.0
+rot 1.57 1 0 1
+scale 10
+obj glass_cube.obj
+
+pos 15.0 -20.0 0.0
+rot 1.57 0 0 1
+scale 20
+obj mirror_plane_fuzzy.obj
+pos 0.0 -20.0 -15.0
+rot 1.57 1 0 0
+obj mirror_plane.obj
+
+sphere 10.0 0.0 -20.0 0.0 sphere.mtl
+
+#done

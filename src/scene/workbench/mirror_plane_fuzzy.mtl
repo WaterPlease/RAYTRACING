@@ -1,0 +1,12 @@
+newmtl mirror_fuzzy
+	Ns 51.2
+	d 1 
+	Tr 0.0
+	Kr 1.0
+	Tf 1 1 1
+	illum 2
+	rIdx 1.0
+	fuzzy 0.15
+	Ka 0.0 0.0 0.0
+	Kd 1.0 0.9 0.9
+	Ks 0.0 0.0 0.0

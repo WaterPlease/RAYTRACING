@@ -1,0 +1,30 @@
+# Scene sample
+
+thread 12
+
+depth 4
+sample 8
+soft_shadow 0.16
+sample_shadow 4
+sample_spec 4
+
+sky 1.0 1.0 1.0
+
+bKDtree 0
+KDdepth 11
+KDtriangle 30
+
+# Light setting
+light
+La 1.0 1.0 1.0
+Ld 1.0 1.0 1.0
+Ls 1.0 1.0 1.0
+Lpos -10.0 10.0 0.0 0.0
+Latt 1.0 0.0 0.0
+
+pos -65.0 0.0 0.0
+rot -1.57 0 1 0
+scale 20.0
+obj Triple_Barrel_Shotgun.obj
+
+#done

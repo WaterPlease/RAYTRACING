@@ -1,0 +1,86 @@
+# Scene sample
+
+thread 24
+
+depth 4
+sample 8
+soft_shadow 0.15
+sample_shadow 4
+sample_spec 4
+
+sky 0.7 0.7 0.7
+
+bKDtree 1
+KDdepth 10
+KDtriangle 30
+
+# Light setting
+light
+La 0.1 0.1 0.1
+Ld 0.0 0.0 1.0
+Ls 0.0 0.0 1.0
+Lpos 0 26.0 -13.0 1.0
+Latt 1.0 0.0 0.0
+
+light
+La 0.1 0.1 0.1
+Ld 1.0 1.0 1.0
+Ls 1.0 1.0 1.0
+Lpos 17 3.0 9 1.0
+Latt 1.0 0.0 0.0
+
+light
+La 0.1 0.1 0.1
+Ld 1.0 0.0 0.0
+Ls 1.0 0.0 0.0
+Lpos -11.25 26.0 6.5 1.0
+Latt 1.0 0.00 0.0
+
+
+# object
+pos 0.0 -30.0 0.0
+rot 0 1 0 0
+scale 20.0
+obj table.obj
+
+pos -18.0 8.7 3.0
+scale 60
+obj coffee-cup.obj
+
+
+
+pos 15.0 2.5 3.0
+rot 0 1 0 0
+scale 1.0
+swept glass.txt glass.mtl
+
+
+# implicit
+pos 0.0 2.5 0.0
+rot 2.57 1 -1 0
+scale 1.5
+implicit torus torus.mtl 0.1
+
+pos 0.0 2.5 20.0
+rot 1.17 1 0 0
+scale 1.5
+implicit genus2 obsidian.mtl 0.1
+#0.3->0.1
+
+
+rot 0.5 1 0 0
+pos 10.0 2.5 20.0
+implicit merging merging_sphere.mtl 0.1
+#0.3->0.1
+
+pos -9.0 8.0 9.0
+sphere 1.5 -9.0 8.0 9.0 sphere.mtl
+
+
+# Swept
+pos 10.0 2.5 10.0
+rot -1.3 0 0.1 1.0
+scale 0.1
+swept bolt.txt bolt.mtl
+
+#done
